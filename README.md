@@ -7,7 +7,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### Prerequisites
 - Python 3.x
 - Jupyter Notebook
-- Libraries: numpy, pandas, sklearn, seaborn, matplotlib, nltk, plotly, wordcloud, joblib
+- Libraries: numpy, pandas, scikit-learn, seaborn, matplotlib, nltk, plotly, wordcloud, joblib, streamlit
 
 ### Installing Dependencies
 Use the following commands to install the required libraries:
@@ -52,6 +52,18 @@ pip install numpy pandas scikit-learn seaborn matplotlib nltk plotly wordcloud j
 1. Open the `Final Project Movie Recommendation System.ipynb` notebook in Jupyter.
 2. Execute the cells sequentially to preprocess data, perform EDA, build and evaluate the recommendation system, and save the model.
 3. Test the recommendation system with sample movie titles to see the results.
+
+## Hosting with Streamlit
+To host our application using Streamlit:
+1. Navigate to the project directory:
+    ```
+    cd path/to/your/project
+    ```
+2. Run the Streamlit application:
+    ```
+    streamlit run app.py
+    ```
+3. Open the provided local URL in your browser to interact with the recommendation system.
 
 ## Functions
 ### Data Preprocessing
