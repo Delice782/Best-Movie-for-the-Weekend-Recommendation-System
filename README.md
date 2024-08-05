@@ -70,4 +70,8 @@ pip install numpy pandas scikit-learn seaborn matplotlib nltk plotly wordcloud j
 ## Testing
 Test the recommendation system with sample movie titles such as "The Avengers", "The Butterfly's Dream", "I Am Mother", "Hedgehogs", "2067", and "Let's Fight Ghost" to evaluate its performance.
 
+## Video Demonstration
+[The link to our video testing our model]  (https://youtu.be/XKgmr27-TXU?si=ug3Yln5UmkNPBUgE)
+
+
 
