@@ -1,3 +1,4 @@
+
 # Movie Recommendation System
 This project aims to build a content-based movie recommendation system using a dataset that combines information from Netflix, Rotten Tomatoes, Metacritic, and IMDb. The recommendation system suggests movies based on their descriptions and other features using techniques like TF-IDF vectorization and cosine similarity.
 
