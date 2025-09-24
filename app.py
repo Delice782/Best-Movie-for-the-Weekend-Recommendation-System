@@ -1,4 +1,5 @@
-import pandas as pd
+
+ import pandas as pd
 import streamlit as st
 import joblib
 
@@ -77,4 +78,5 @@ if __name__ == '__main__':
     if 'Image' not in movie_data.columns:
         st.error("CSV file does not contain 'Image' column.")
     else:
+
         main(movie_data)
