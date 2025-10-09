@@ -9,7 +9,7 @@ def get_movie_title_index(movie_title, indices):
         return indices[movie_title]
     except KeyError:
         return None
-
+ 
 # Load the content-based recommender file
 with open("C:\\Users\\user\\Desktop\\Final_Project Ai\\content_based_recommender.pkl", 'rb') as recommend:
     loaded_model_components = joblib.load(recommend)
@@ -80,6 +80,7 @@ if __name__ == '__main__':
     else:
 
         main(movie_data)
+
 
 
 
