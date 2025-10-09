@@ -1,5 +1,5 @@
         
- import pandas as pd
+import pandas as pd
 import streamlit as st
 import joblib
 
@@ -80,6 +80,7 @@ if __name__ == '__main__':
     else:
 
         main(movie_data)
+
 
 
 
