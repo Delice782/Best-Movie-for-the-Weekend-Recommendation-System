@@ -20,7 +20,7 @@ with open('C:\\Users\\user\\Desktop\\Final_Project Ai\\Merged_data.pkl', 'rb') a
 loaded_vectorizer = loaded_model_components['tfidf_vectorizer']
 loaded_similarity = loaded_model_components['cosine_similarity_matrix']
 loaded_indices = loaded_model_components['indices_mapping']
-
+ 
 # Function to recommend movie titles
 def recommend_movie_titles(movie_title, indices, cosine_similarity, Merged_data):
     title_index = get_movie_title_index(movie_title, indices)
@@ -80,6 +80,7 @@ if __name__ == '__main__':
     else:
 
         main(movie_data)
+
 
 
 
