@@ -44,7 +44,7 @@ def recommend_movie_titles(movie_title, indices, cosine_similarity, Merged_data)
             'Genre': recommended_genre
         }
         recommendations.append(recommendation_info)
-    
+     
     return recommendations
 
 def display_recommendations(movie_title, streaming_movies):
@@ -80,6 +80,7 @@ if __name__ == '__main__':
     else:
 
         main(movie_data)
+
 
 
 
