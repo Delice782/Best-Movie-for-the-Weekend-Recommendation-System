@@ -34,7 +34,7 @@ def recommend_movie_titles(movie_title, indices, cosine_similarity, Merged_data)
     recommendations = []
     for i in similarity_list:
         recommended_title = Merged_data['Title'].iloc[i[0]]
-        recommended_date = Merged_data['Release Date'].iloc[i[0]]
+        recommended_date = Merged_data['Release Date'].iloc[i[0]] 
         recommended_genre = Merged_data['Genre'].iloc[i[0]]
         recommended_poster = Merged_data['Image'].iloc[i[0]]  # Ensure these are valid URLs or paths
         recommendation_info = {
@@ -83,6 +83,7 @@ if __name__ == '__main__':
 
 
  
+
 
 
 
