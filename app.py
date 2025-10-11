@@ -29,7 +29,7 @@ def recommend_movie_titles(movie_title, indices, cosine_similarity, Merged_data)
      
     index = indices[movie_title]
     similarity = sorted(list(enumerate(cosine_similarity[index])), key=lambda x: x[1], reverse=True)
-    similarity_list = similarity[1:7]  # Exclude the input movie itself and then recommend the most similar six
+    similarity_list = similarity[1:7]  
     
     recommendations = []
     for i in similarity_list:
@@ -83,6 +83,7 @@ if __name__ == '__main__':
 
 
  
+
 
 
 
